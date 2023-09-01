@@ -8,13 +8,20 @@ import {
   EnvironmentType,
   connect,
 } from '@breeztech/react-native-breez-sdk';
+// import {generateMnemonic} from '@dreson4/react-native-quick-bip39';
 
 import {BREEZ_API_KEY, BREEZ_INVITE_CODE, MNEMONIC_WORDS} from '@env';
 
 const App = () => {
   useEffect(() => {
-    createConfig();
+    // createConfig();
+    // getWords();
   }, []);
+
+  const getWords = () => {
+    const words = generateMnemonic(256);
+    console.log(words);
+  };
 
   // SDK events listener
   addEventListener((type, data) => {
