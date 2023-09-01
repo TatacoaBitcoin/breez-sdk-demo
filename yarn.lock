@@ -6059,7 +6059,7 @@ react-native-dotenv@^3.4.9:
   dependencies:
     dotenv "^16.3.1"
 
-react-native-quick-base64@^2.0.5:
+react-native-quick-base64@^2.0.5, react-native-quick-base64@^2.0.7:
   version "2.0.7"
   resolved "https://registry.npmjs.org/react-native-quick-base64/-/react-native-quick-base64-2.0.7.tgz"
   integrity sha512-QmOon3zXAWFi3KvQVCJjCC7N66rwfl1R4nLPuJ+OVs8nWysvKlaU8mKxe2BV4Ud1nB3nTDgyi2VCJFpjtjJxKw==
